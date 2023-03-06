@@ -1,0 +1,25 @@
+.login-form {
+    padding-top: 100px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .login-button {
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px solid #1976d2;
+    color: #1976d2;
+    background: transparent;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 500px) {
+    .login-form {
+        width: 280px;
+    }
+  }

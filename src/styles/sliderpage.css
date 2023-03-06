@@ -1,0 +1,41 @@
+.slider {
+    position: relative;
+}
+.start-block {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 40%;
+    left: 0;
+    right: 0;
+    
+
+}
+.start-btn {
+    width: 200px;
+    padding: 20px 0px;
+    background:transparent;
+    font-size: 25px;
+    color: white;
+    border: 2px solid #ff8f00;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.start-text {
+    width: 500px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 40px;
+}
+.start-block a {
+    margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+    .start-text {
+        width: 300px;
+        font-size: 30px;
+    }
+}

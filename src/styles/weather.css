@@ -1,0 +1,27 @@
+.content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .content-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .location {
+    padding: 20px 0px;
+    text-align: center;
+  }
+  
+  .search-wrapper {
+    padding-top: 25px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  @media screen and (max-width:768px) {
+    .content-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+  

@@ -1,0 +1,18 @@
+.prevbtn {
+    width: 100px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    
+}
+.nextbtn {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+
+}
+
+.pagination {
+    padding-top: 25px;
+}

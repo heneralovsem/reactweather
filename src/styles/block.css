@@ -1,0 +1,77 @@
+.block-wrapper {
+    cursor: pointer;
+}
+
+.weatherblock {
+   border: 1px solid;
+   text-align: center;
+   height: 200px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.clouds {
+    background-color: gray;
+}
+.rain {
+    background-color: darkgray;
+}
+.snow {
+    background-color: azure;
+}
+.clear {
+    background-color: lightyellow;
+} 
+.modal-container {
+    border: 1px solid black;
+    padding: 25px 0;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    
+    
+}
+.weather-info {
+    padding: 30px 0px;
+}
+.temperature {
+    padding-top: 30px;
+}
+.detailed-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.detailed-info {
+    text-align: initial;
+}
+.detailed-wind {
+    text-align: initial;
+}
+@media screen and (max-width: 768px) {
+    .modal-container {
+        width: 400px;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .modal-container {
+        width: 280px;
+    }
+    .weatherblock {
+        height: 100px;
+        font-size: 12px;
+    }
+    
+    .temperature {
+        padding: 5px 0px;
+    }
+}
