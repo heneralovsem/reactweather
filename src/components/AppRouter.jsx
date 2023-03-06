@@ -1,12 +1,6 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../context";
 import { Route, Routes, Navigate } from "react-router-dom";
-import About from "../pages/About";
-import Maincontent from "../pages/Weather";
-import Error from "../pages/Error";
-import Login from "../pages/Login";
-import Profile from "../pages/Profile";
-import SliderPage from "../pages/SliderPage";
 import { publicRoutes, privateRoutes } from "../router";
 import Loader from "./UI/Loader/Loader";
 const AppRouter = () => {
