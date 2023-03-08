@@ -36,8 +36,6 @@ function Weather() {
     }
   }
 
-  console.log(split);
-  console.log(data);
 
   return (
     <div>

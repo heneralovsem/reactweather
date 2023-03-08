@@ -13,11 +13,12 @@ const Block = function (props) {
     setModal(true);
   }
   function closeModal() {
-    setModal(false);
+      setModal(false)
+    
   }
   return (
-    <div className="block-wrapper" onClick={openModal}>
-      <div className={`weatherblock ${props.weather.toLowerCase()}`}>
+    <div className="block-wrapper" >
+      <div className={`weatherblock ${props.weather.toLowerCase()}`} onClick={openModal}>
         <p className="time">{props.time} </p>
         <p className="weatherinfo">{props.weather} </p>
         <div>
