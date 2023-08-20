@@ -12,7 +12,7 @@ const Pagination = function (props) {
     
     return (
         <div className={cl.pagination}>
-            {props.split > 0 ? <button className={cl.prevbtn} onClick={splitPrev}><Icon path={mdiArrowLeft} size={1}/></button> : null}
+            {props.split > 0 ?  <button className={cl.prevbtn} onClick={splitPrev}><Icon path={mdiArrowLeft} size={1}/></button> : null}
             {props.split < 32 ? <button className={cl.nextbtn} onClick={splitNext}><Icon path={mdiArrowRight} size={1}/></button> : null}
     
        
